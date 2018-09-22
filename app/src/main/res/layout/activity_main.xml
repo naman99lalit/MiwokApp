@@ -6,91 +6,143 @@
     android:orientation="vertical">
 
     <android.support.v7.widget.CardView
-        android:id="@+id/numbers"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:layout_weight="1"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@color/blueDark">
+        app:cardUseCompatPadding="true">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+        <android.support.v7.widget.CardView
+            android:id="@+id/numbers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:text="Numbers"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:fontFamily="@font/psb"/>
+            app:cardBackgroundColor="@color/blueDark"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/psb"
+                android:text="Numbers"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
-        android:id="@+id/family"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
         android:layout_weight="1"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="#f3f3f3">
+        app:cardUseCompatPadding="true">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+        <android.support.v7.widget.CardView
+            android:id="@+id/family"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:text="Family Members"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:fontFamily="@font/psb"/>
+            app:cardBackgroundColor="#ffff00"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/psb"
+                android:text="Family Members"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
-        android:id="@+id/colors"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
         android:layout_weight="1"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="#ff0266">
+        app:cardUseCompatPadding="true">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+        <android.support.v7.widget.CardView
+            android:id="@+id/colors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:text="Colors"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:fontFamily="@font/psb"/>
+            app:cardBackgroundColor="#ff0266"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/psb"
+                android:text="Colors"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
-        android:id="@+id/phrases"
-        android:background="@color/blueDark"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
         android:layout_weight="1"
+        app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="#AAF719">
+        app:cardUseCompatPadding="true">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+        <android.support.v7.widget.CardView
+            android:id="@+id/phrases"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_margin="4dp"
-            android:text="Phrases"
-            android:fontFamily="@font/psb"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            app:cardBackgroundColor="#AAF719"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:fontFamily="@font/psb"
+                android:text="Phrases"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </android.support.v7.widget.CardView>
     </android.support.v7.widget.CardView>
+
 </LinearLayout>
